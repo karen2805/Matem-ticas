@@ -1,0 +1,96 @@
+body{
+    /* color de fondo */
+    /* background-color: #5b8e7d; */
+    background: linear-gradient(#86E7B8,#D0FFB7);
+    /* tipografia */
+    font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    /* color de texto */
+    color: #bc4b51;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+    
+}
+
+h1{
+    /* color de titulo */
+    color: #f28482;
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+#banner{
+    width: 500px;
+    align-self: center;
+}
+
+img{
+    /* cambiar tamaño de imagenes */
+    /* anchura */
+    width: 20%;
+    /* bordes redondeados */
+    border-radius: 20px;
+
+}
+/* para modificar el csss de un elemento particular HTML, asignamos una clase (class) y esa la "llamamos" en el css con un punto (.) */
+.logo{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+/* editar div del menu */
+.menu {
+    
+    /* div flex para moverse con los elementos */
+    display: flex;
+    /* en columna */
+    flex-direction: column;
+    /* alinea items de forma centrada */
+    align-items: center;
+    }
+
+    .container1{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+
+/* anclas de menu */
+a{
+    color: black;
+    /* viñetas (linea abajo) */
+    text-decoration: none;
+    /* anclas concolores */
+    background-color: rgb(28, 107, 70);
+    padding: 2%;
+    border-radius: 7%;
+    margin-bottom: 4%;
+}
+
+a:hover{
+    background-color: #bc4b51;
+    color: antiquewhite;
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: alinear verticalmente; */
+    align-items: center;
+}
+
+.logo-math{
+    width: 25%;
+    /* margi right (margen de un lado derecho) */
+    margin-right: 10%;
+    margin-left: 30px;
+
+}
