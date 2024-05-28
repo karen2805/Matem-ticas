@@ -1,2 +1,2 @@
 # Matemáticas
-Página informativa sobre clases de matemáticas, en HTML y CSS
+Mi primera página informativa sobre clases de matemáticas, en HTML y CSS
